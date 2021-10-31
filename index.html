@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title>Chatting Rooms</title>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+
+</head>
+
+<body>
+<center>
+    <h1 class="header">Chatting Rooms
+        <sup>
+            <img src="https://icon-library.com/images/256-256-f269bbc2a3bd8805b0dccb6c36dd2fac_8933.png">
+        </sup>
+    </h1>
+    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+        <h3>Join Today</h3>
+        <div class="form-group">
+            <label>User Name: </label>
+            <input type="text" id="user_name" class="form-control" placeholder="User Name"> 
+        </div>
+        <button id = "login_button" class="btn btn-danger" onclick="adduser()">Log in</button>
+<br>
+<br>
+    </div>
+</center>
+</body>
+
+</html>
